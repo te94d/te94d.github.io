@@ -1,0 +1,35 @@
+/*header*/
+
+header {
+  width: 100%;
+  padding: 0 var(--gutter-width);
+  position: fixed;
+  top: 40px;
+  z-index: 99999;
+}
+@media screen and (max-width: 960px) {
+  header {
+    padding: 0;
+    top: 0;    
+  }
+}
+.headerWrapper, .headerNavList {
+  display: flex;
+}
+.headerLogo img{
+  width: 100%;
+  width: 150px;
+  height: 150px;
+}
+.hamburgerIcon {
+  display: none;
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerNavItem {
+  padding-left: 40px;
+  list-style:none;
+}
