@@ -11543,7 +11543,7 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
 }
 .picture-modal .modal-content img {
-  margin-bottom: 2rem;
+  margin-bottom: 10px;
 }
 .picture-modal .close-modal {
   position: absolute;
@@ -11556,6 +11556,44 @@ header.masthead .masthead-heading {
 }
 .picture-modal .close-modal:hover {
   opacity: 0.3;
+}
+
+.gallery {
+  margin: 50px auto 0;
+  max-width: 600px;
+}
+.gallery .main-img {
+  height: auto;
+  width: 100%;
+}
+.gallery .main-img img {
+  height: auto;
+  width: 100%;
+}
+.gallery .sub-img {
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+.gallery .sub-img li {
+  margin-right: 2%;
+  width: calc(96% / 5);
+}
+.gallery .sub-img li:nth-child(3n) {
+  margin-right: 0;
+}
+.gallery .sub-img li img {
+  border: 2px solid transparent;
+  transition: border .5s;
+}
+.gallery .sub-img img {
+  cursor: pointer;
+  width: 100%;
+}
+.gallery .sub-img li.current img {
+  border: 2px solid #ffc800;;
+  transition: border .5s;
 }
 
 .timeline {
