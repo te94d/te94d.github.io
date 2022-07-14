@@ -1,0 +1,36 @@
+.container {
+  margin: 50px auto 0;
+  max-width: 600px;
+}
+.main-img {
+  height: auto;
+  width: 100%;
+}
+.main-img img {
+  height: auto;
+  width: 100%;
+}
+.sub-img {
+  display: flex;
+  margin-top: 10px;
+}
+.sub-img li {
+  margin-right: 2%;
+  width: calc(96% / 5);
+}
+.sub-img li:nth-child(3n) {
+  margin-right: 0;
+}
+.sub-img li img {
+  border: 2px solid transparent;
+  transition: border .5s;
+}
+.sub-img img {
+  cursor: pointer;
+  width: 100%;
+}
+/* アクティブな画像の枠線を変更 */
+.sub-img li.current img {
+  border: 2px solid red;
+  transition: border .5s;
+}
