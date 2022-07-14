@@ -11342,6 +11342,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #FFFFFF;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
