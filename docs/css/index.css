@@ -158,6 +158,11 @@ p {
   margin-bottom: 1rem;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -11776,6 +11781,41 @@ header.masthead .masthead-heading {
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+.my-profile {
+  margin-bottom: 3rem;
+}
+.my-profile .underline {
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  background: linear-gradient(transparent 50%, yellow 50%);
+}
+.skillmap {
+  text-align: center;
+}
+.skill-group {
+  padding: 0 ;
+}
+.skillmap h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 992px) {
+  .skillmap h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+.skillmap .skillmap-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.skillmap .skillmap-list p {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-brand {
