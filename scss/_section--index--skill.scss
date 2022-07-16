@@ -1,0 +1,32 @@
+.col-md-4 h4 {
+  margin-bottom: 0.5rem;
+}
+
+.col-md-4 h6 {
+  margin-bottom: 1rem;
+}
+
+.img-brand {
+  height: 2.75rem;
+}
+
+.skillmap {
+  text-align: center;
+  .skillmap-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    margin-bottom: 1rem;    
+    p {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 0;      
+    }
+  }
+}
+
+.skill-group {
+  padding: 0 ;
+}
