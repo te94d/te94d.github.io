@@ -7290,6 +7290,11 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
 }
 
+.my-3-5 {
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
 .my-4 {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
@@ -11826,6 +11831,12 @@ header.masthead .masthead-heading {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 0;
+}
+.col-md-4 h4 {
+  margin-bottom: 0.5rem;
+}
+.col-md-4 h6 {
+  margin-bottom: 1rem;
 }
 
 .img-brand {
