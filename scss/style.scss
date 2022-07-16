@@ -1,0 +1,12 @@
+/*共通パーツ*/
+@use "common";
+@use "fine-settings";
+@use "header";
+@use "footer";
+
+/*ページ*/
+@use "section--index--picture";
+@use "section--index--about";
+@use "section--index--profile";
+@use "section--index--skill";
+@use "section--index--contact";
