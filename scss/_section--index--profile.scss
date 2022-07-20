@@ -27,13 +27,15 @@
     margin-bottom: 1rem;
     background: linear-gradient(transparent 50%, yellow 50%);    
   }
+  .more-item {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
   .my-profile {
     text-align: left;
     display: flex;
     justify-content: center;
-    align-items: center;  
   }
   .my-profile-box p {
     max-width: none;
