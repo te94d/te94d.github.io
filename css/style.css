@@ -10693,6 +10693,10 @@ p {
     padding: 9rem 0;
   }
 }
+#top p {
+  margin: 0;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
