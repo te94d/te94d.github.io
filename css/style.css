@@ -10967,6 +10967,18 @@ button.learn-more .button-text {
   text-align: center;
   text-transform: uppercase;
 }
+@media (max-width: 992px) {
+  button.learn-more .circle {
+    width: 100%;
+  }
+  button.learn-more .circle .icon.arrow {
+    background: #ffffff;
+    transform: translate(1rem, 0);
+  }
+  button.learn-more .button-text {
+    color: #ffffff;
+  }
+}
 button:hover .circle {
   width: 100%;
 }
