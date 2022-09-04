@@ -11058,9 +11058,6 @@ button:hover .button-text {
 .picture-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.picture-modal .modal-content img {
-  margin-bottom: 10px;
-}
 .picture-modal .close-modal {
   position: absolute;
   top: 1.5rem;
@@ -11112,6 +11109,45 @@ button:hover .button-text {
   width: 100%;
 }
 
+.modal-body img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.modal-body ul {
+  list-style: none;
+}
+.modal-body .content {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 20px auto;
+}
+.modal-body .mainpic {
+  padding: 10px;
+}
+.modal-body .subpic {
+  display: flex;
+  padding-left: 0;
+}
+.modal-body .subpic li {
+  width: 20%;
+  padding: 10px;
+}
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .modal-body .content {
+    padding: 0 10px;
+    margin: 10px auto;
+  }
+  .modal-body #mainvisual {
+    padding: 5px;
+  }
+  .modal-body #thumbnail li {
+    padding: 5px;
+  }
+}
 .timeline {
   position: relative;
   padding: 0;

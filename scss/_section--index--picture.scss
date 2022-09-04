@@ -69,9 +69,6 @@
     ul.list-inline {
       margin-bottom: 2rem;
     }
-    img {
-      margin-bottom: 10px;
-    }
   }
 
   .close-modal {
@@ -124,5 +121,51 @@
       cursor: pointer;
       width: 100%;
     }
+  }
+}
+
+.modal-body{
+  img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+  ul {
+    list-style: none;
+  }
+  .content {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 20px auto;
+  }
+  .mainpic {
+    padding: 10px;
+  }
+  .subpic {
+    display: flex;
+    padding-left: 0;
+  }
+  .subpic li {
+    width: 20%;
+    padding: 10px;
+  }  
+}
+
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .modal-body{
+    .content {
+      padding: 0 10px;
+      margin: 10px auto;
+    }
+
+    #mainvisual {
+      padding: 5px;
+    }
+    #thumbnail li {
+      padding: 5px;
+    }    
   }
 }
