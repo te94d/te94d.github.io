@@ -6,8 +6,9 @@
 @use "button";
 
 /*ページ*/
-@use "section--index--picture";
-@use "section--index--about";
-@use "section--index--profile";
-@use "section--index--skill";
-@use "section--index--contact";
+@use "section--picture";
+@use "section--about";
+@use "section--profile";
+@use "section--skill";
+@use "section--contact";
+@use "section--portfolio";
