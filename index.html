@@ -28,33 +28,103 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#study">Study</a></li>   
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>                                             
                         <li class="nav-item"><a class="nav-link" href="#picture">Picture</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#study">Study</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
                         <li class="nav-item"><a class="nav-link" href="#skillmap">Skill</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
                 <img class="masthead-avatar mb-5" src="assets/img/teWebIcon.png" alt="">
-                <div class="masthead-subheading">Welcome To My Site!</div>
+                <!--<div class="masthead-subheading">Welcome To My Site!</div>-->
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#top">Tell Me More</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#study">Tell Me More</a>
             </div>
         </header>
         <a href="#" id="page-top" class="btn-top">TOP</a>
-        <!-- Top-->
-        <section class="page-section" id="top">
+
+        <!-- Study-->
+        <section class="page-section" id="study">
             <div class="container">
                 <div class="text-center">
-                    <!--<h2 class="section-heading text-uppercase">Yo !</h2>-->
-                    <p class="text-muted">暇なときにコツコツとGithubに水やりする毎日...🌱</p>
+                    <h2 class="section-heading text-uppercase">study</h2>
+                    <h3 class="section-subheading text-muted">こんなこと勉強してます！</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa-solid fa-keyboard fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3-5">Coding</h4>
+                        <h6 class="text-muted">コーディング</h6>
+                        <p class="text-muted">冗長化せず、見やすいコーディグができるように強々coder様のコード見て日々勉強してます！</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3-5">Front End</h4>
+                        <h6 class="text-muted">フロントエンド</h6>
+                        <p class="text-muted">フロントエンドの勉強中！！業務委託を通してWordPress、Shopifyを用いた開発経験あり。<br>
+                        webデザインやバックエンド勉強中！</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3-5">Web Security</h4>
+                        <h6 class="text-muted">Webセキュリティ</h6>
+                        <p class="text-muted">Google Chromeの元となっている Chromium を用いてプッシュ通知など
+                        により悪質なサイトへの誘導を抑制する研究をしています！！</p>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">つくったもの</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/dcbot.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Discord bot</div>
+                                <div class="portfolio-caption-subheading text-muted">September 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="btn-more">
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button>
+                </div>-->
+            </div>
+        </section>        
+
         <!-- Picture Grid-->
         <section class="page-section bg-light" id="picture">
             <div class="container">
@@ -119,6 +189,60 @@
                 </div>-->
             </div>
         </section>
+
+        <!-- SkillMap-->
+        <section class="page-section" id="skillmap">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Skill Set</h2>
+                    <h3 class="section-subheading text-muted">スキルセット</h3>
+                </div>
+                <div class="row text-center skillmap">
+                    <div class="skill-group col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa-solid fa-file-code fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3-5">Language</h4>
+                        <h6 class="text-muted">やったことある言語</h6>
+                        <ul class="skillmap-list text-muted">
+                            <li><p>C (2016~2021)</p></li>
+                            <li><p>Java (2020~2022)</p></li>
+                            <li><p>HTML (2020~)</p></li>
+                            <li><p>CSS (2020~)</p></li>
+                            <li><p>JavaScript (2020~)</p></li>
+                            <li><p>Python (2022~)</p></li>
+                            <li><p>Liquid (2022)</p></li>
+                            <li><p>PHP (2022~)</p></li>
+                        </ul>
+                    </div>
+                    <div class="skill-group col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa-solid fa-toolbox fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3-5">Development tools</h4>
+                        <h6 class="text-muted">使ったことある開発周りのツール</h6>
+                        <ul class="skillmap-list text-muted">
+                            <li><p>Visual Studio Code</p></li>
+                            <li><p>Raspberry Pi</p></li>
+                            <li><p>Git</p></li>
+                            <li><p>Github</p></li>
+                            <li><p>Docker</p></li>
+                            <li><p>Adobe XD</p></li>
+                            <li><p>Figma</p></li>
+                            <li><p>Slack</p></li>
+                            <li><p>Notion</p></li>
+                            <li><p>Backlog</p></li>
+                            <li><p>WordPress</p></li>
+                            <li><p>Shopify</p></li>
+                            <li><p>Discord.py</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- About-->
         <!--<section class="page-section" id="about">
             <div class="container">
@@ -181,46 +305,7 @@
                 </ul>
             </div>
         </section>-->
-        <!-- Study-->
-        <section class="page-section" id="study">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">study</h2>
-                    <h3 class="section-subheading text-muted">こんなこと勉強してます！</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa-solid fa-keyboard fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Coding</h4>
-                        <h6 class="text-muted">コーディング</h6>
-                        <p class="text-muted">冗長化せず、見やすいコーディグができるように強々coder様のコード見て日々勉強してます！チーム開発経験するまでは、動けばいいや～とか適当にコーディグしてたのは内緒</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Front End</h4>
-                        <h6 class="text-muted">フロントエンド</h6>
-                        <p class="text-muted">フロントエンドの勉強中！！業務委託を通してWordPress、Shopifyを用いた開発経験あり。<br>
-                        いずれはwebデザインやバックエンドも出来るようになりたいなと思ってます！</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Web Security</h4>
-                        <h6 class="text-muted">Webセキュリティ</h6>
-                        <p class="text-muted">Google Chromeの元となっているオープンソースのWebブラウザ Chromium を用いてプッシュ通知など
-                        により悪質なサイトへの誘導を抑制する研究をするに向けて勉強をしています！！</p>
-                    </div>
-                </div>
-            </div>
-        </section>        
+
         <!-- Profile-->
         <section class="page-section bg-light" id="profile">
             <div class="container">
@@ -250,7 +335,6 @@
                             <div class="more-item">
                                 <h4>Motto 🔖</h4>
                                 <span class="underline">人に奢ったことは忘れろ。人に奢られたことは忘れるな。</span>
-                                <p class="text-muted">これは偉大なる父から高校生の頃に言われた言葉。何気なく言われたことだけど勝手に座右の銘にしてる（内緒）</p>
                             </div>
                             <div class="btn-more">
                                 <button class="learn-more">
@@ -268,78 +352,7 @@
                 </div>-->
             </div>
         </section>
-        <!-- SkillMap-->
-        <section class="page-section" id="skillmap">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Skill Set</h2>
-                    <h3 class="section-subheading text-muted">スキルセット</h3>
-                </div>
-                <div class="row text-center skillmap">
-                    <div class="skill-group col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa-solid fa-file-code fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Language</h4>
-                        <h6 class="text-muted">やったことある言語</h6>
-                        <ul class="skillmap-list text-muted">
-                            <li><p>C (2016~2021)</p></li>
-                            <li><p>Java (2020~2022)</p></li>
-                            <li><p>HTML (2020~)</p></li>
-                            <li><p>CSS (2020~)</p></li>
-                            <li><p>JavaScript (2020~)</p></li>
-                            <li><p>Python (2022~)</p></li>
-                            <li><p>Liquid (2022)</p></li>
-                            <li><p>PHP (2022~)</p></li>
-                        </ul>
-                    </div>
-                    <div class="skill-group col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa-solid fa-toolbox fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Development tools</h4>
-                        <h6 class="text-muted">使ったことある開発周りのツール</h6>
-                        <ul class="skillmap-list text-muted">
-                            <li><p>Visual Studio Code</p></li>
-                            <li><p>Raspberry Pi</p></li>
-                            <li><p>Git</p></li>
-                            <li><p>Github</p></li>
-                            <li><p>Docker</p></li>
-                            <li><p>Adobe XD</p></li>
-                            <li><p>Figma</p></li>
-                            <li><p>Slack</p></li>
-                            <li><p>Notion</p></li>
-                            <li><p>Backlog</p></li>
-                            <li><p>WordPress</p></li>
-                            <li><p>Shopify</p></li>
-                        </ul>
-                    </div>
-                    <div class="skill-group col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa-solid fa-building fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Work experience</h4>
-                        <h6 class="text-muted">実務経験</h6>
-                        <ul class="skillmap-list text-muted">
-                            <li><p>HTML</p></li>
-                            <li><p>CSS</p></li>
-                            <li><p>SCSS</p></li>
-                            <li><p>JavaScript</p></li>
-                            <li><p>PHP</p></li>
-                            <li><p>Liquid</p></li>
-                            <li><p>Git</p></li>
-                            <li><p>Github</p></li>
-                            <li><p>Docker</p></li>
-                            <li><p>WordPress</p></li>
-                            <li><p>Shopify</p></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
@@ -357,6 +370,7 @@
                 </div>
             </div>
         </footer>
+
         <!-- Picture Modals-->
         <!-- Picture item 3 modal popup-->
         <div class="picture-modal modal fade" id="pictureModal3" tabindex="-1" role="dialog" aria-hidden="true">
@@ -386,7 +400,7 @@
                                             コトコ 様
                                         </li>
                                         <li>
-                                            <strong>カテゴリー :</strong>
+                                            <strong>カテゴリ :</strong>
                                             Icon , Deformed
                                         </li>
                                     </ul>
@@ -428,7 +442,7 @@
                                             水無瀬 澪 様
                                         </li>
                                         <li>
-                                            <strong>カテゴリー :</strong>
+                                            <strong>カテゴリ :</strong>
                                             Charactar design
                                         </li>
                                     </ul>
@@ -470,10 +484,40 @@
                                             Coconiilu 様
                                         </li>
                                         <li>
-                                            <strong>カテゴリー :</strong>
+                                            <strong>カテゴリ :</strong>
                                             Icon , Deformed
                                         </li>
                                     </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h3 class="text-uppercase">discord bot</h3>
+                                    <p class="item-intro text-muted">September 2022</p>
+                                    <div class="content">
+                                        <div id="mainvisual" class="mainpic">
+                                            <img src="assets/img/portfolio/dcbot.png" alt="">
+                                        </div>
+                                    </div>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close
