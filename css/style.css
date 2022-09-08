@@ -11446,6 +11446,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
+#portfolio.page-section {
+  padding: 6rem 0 0;
+}
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;

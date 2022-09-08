@@ -1,3 +1,8 @@
+//portfolioが4個以上になったら #portfolio.page-section{} を消して more-btn をつくる
+#portfolio.page-section {
+  padding: 6rem 0 0;
+}
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
