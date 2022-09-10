@@ -11601,6 +11601,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 SP
 -------------------------------------------*/
 @media screen and (max-width: 600px) {
+  .portfolio-modal .modal-dialog {
+    margin: 1rem auto;
+    max-width: 95vw;
+  }
   .modal-body .content {
     padding: 0 10px;
     margin: 10px auto;
