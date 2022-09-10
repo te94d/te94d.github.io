@@ -155,6 +155,13 @@
 SP
 -------------------------------------------*/
 @media screen and (max-width: 600px) {
+  .picture-modal {
+    .modal-dialog {
+      margin: 1rem auto;
+      max-width: 95vw;
+    }
+  }
+
   .modal-body{
     .content {
       padding: 0 10px;
