@@ -13,6 +13,18 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- load html-->
+		<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script>
+			$(function() {
+                $("#study").load("html/study.html");
+				$("#portfolio").load("html/portfolio.html");
+                $("#picture").load("html/picture.html");
+                $("#skillmap").load("html/skillmap.html");
+                $("#about").load("html/about.html");
+                $("#profile").load("html/profile.html");
+			});
+		</script>
         <!-- Core theme CSS-->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
         <link href="css/style.css" rel="stylesheet" />
@@ -50,308 +62,22 @@
         <a href="#" id="page-top" class="btn-top">TOP</a>
 
         <!-- Study-->
-        <section class="page-section" id="study">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">study</h2>
-                    <h3 class="section-subheading text-muted">こんなこと勉強してます！</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa-solid fa-keyboard fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Coding</h4>
-                        <h6 class="text-muted">コーディング</h6>
-                        <p class="text-muted">冗長化せず、見やすいコーディグができるように強々coder様のコード見て日々勉強してます！</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Front End</h4>
-                        <h6 class="text-muted">フロントエンド</h6>
-                        <p class="text-muted">フロントエンドの勉強中！！業務委託を通してWordPress、Shopifyを用いた開発経験あり。<br>
-                        webデザインやバックエンド勉強中！</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Web Security</h4>
-                        <h6 class="text-muted">Webセキュリティ</h6>
-                        <p class="text-muted">Google Chromeの元となっている Chromium を用いてプッシュ通知など
-                        により悪質なサイトへの誘導を抑制する研究をしています！！</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="page-section" id="study"></section>
 
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">つくったもの</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/dcbot.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Discord bot</div>
-                                <div class="portfolio-caption-subheading text-muted">September 2022</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="btn-more">
-                    <button class="learn-more">
-                        <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                        </span>
-                        <span class="button-text">Learn More</span>
-                    </button>
-                </div>-->
-            </div>
-        </section>        
+        <section class="page-section bg-light" id="portfolio"></section>        
 
         <!-- Picture Grid-->
-        <section class="page-section bg-light" id="picture">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Picture</h2>
-                    <h3 class="section-subheading text-muted">描いていただいたイラスト！ありがとうございます！</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Picture item 3-->
-                        <div class="picture-item">
-                            <a class="picture-link" data-bs-toggle="modal" href="#pictureModal3">
-                                <div class="picture-hover">
-                                    <div class="picture-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/picture/te3a.png" alt="..." />
-                            </a>
-                            <div class="picture-caption">
-                                <div class="picture-caption-heading">3rd</div>
-                                <div class="picture-caption-subheading text-muted">January 2022</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Picture item 2-->
-                        <div class="picture-item">
-                            <a class="picture-link" data-bs-toggle="modal" href="#pictureModal2">
-                                <div class="picture-hover">
-                                    <div class="picture-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/picture/te2a.png" alt="..." />
-                            </a>
-                            <div class="picture-caption">
-                                <div class="picture-caption-heading">2nd</div>
-                                <div class="picture-caption-subheading text-muted">June 2021</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Picture item 1-->
-                        <div class="picture-item">
-                            <a class="picture-link" data-bs-toggle="modal" href="#pictureModal1">
-                                <div class="picture-hover">
-                                    <div class="picture-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/picture/te1a.png" alt="..." />
-                            </a>
-                            <div class="picture-caption">
-                                <div class="picture-caption-heading">1st</div>
-                                <div class="picture-caption-subheading text-muted">December 2020</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="btn-more">
-                    <button class="learn-more">
-                        <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                        </span>
-                        <span class="button-text">Learn More</span>
-                    </button>
-                </div>-->
-            </div>
-        </section>
+        <section class="page-section bg-light" id="picture"></section>
 
         <!-- SkillMap-->
-        <section class="page-section" id="skillmap">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Skill Set</h2>
-                    <h3 class="section-subheading text-muted">スキルセット</h3>
-                </div>
-                <div class="row text-center skillmap">
-                    <div class="skill-group col-md-6">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa-solid fa-file-code fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Language</h4>
-                        <h6 class="text-muted">やったことある言語</h6>
-                        <ul class="skillmap-list text-muted">
-                            <li><p>C (2016~2021)</p></li>
-                            <li><p>Java (2020~2022)</p></li>
-                            <li><p>HTML (2020~)</p></li>
-                            <li><p>CSS (2020~)</p></li>
-                            <li><p>JavaScript (2020~)</p></li>
-                            <li><p>Python (2022~)</p></li>
-                            <li><p>Liquid (2022)</p></li>
-                            <li><p>PHP (2022~)</p></li>
-                        </ul>
-                    </div>
-                    <div class="skill-group col-md-6">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa-solid fa-toolbox fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3-5">Development tools</h4>
-                        <h6 class="text-muted">使ったことある開発周りのツール</h6>
-                        <ul class="skillmap-list text-muted">
-                            <li><p>Visual Studio Code</p></li>
-                            <li><p>Raspberry Pi</p></li>
-                            <li><p>Git</p></li>
-                            <li><p>Github</p></li>
-                            <li><p>Docker</p></li>
-                            <li><p>Adobe XD</p></li>
-                            <li><p>Figma</p></li>
-                            <li><p>Slack</p></li>
-                            <li><p>Notion</p></li>
-                            <li><p>Backlog</p></li>
-                            <li><p>WordPress</p></li>
-                            <li><p>Shopify</p></li>
-                            <li><p>Discord.py</p></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="page-section" id="skillmap"></section>
 
         <!-- About-->
-        <!--<section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>-->
+        <!--<section class="page-section" id="about"></section>-->
 
         <!-- Profile-->
-        <section class="page-section bg-light" id="profile">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Profile</h2>
-                    <h3 class="section-subheading text-muted">プロフィール</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/te94d-icon.jpg" alt="..." />
-                            <h4>te94d</h4>
-                            <p class="text-muted">学部 4年生</p>
-                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/te94d" target="_blank" aria-label="te94d Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/te94d" target="_blank" aria-label="te94d github Profile"><i class="fa-brands fa-github" data-fa-transform="grow-3"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.amazon.jp/hz/wishlist/ls/309VX36N8BET0?ref_=wl_share" target="_blank" aria-label="te94d link"><i class="fa-brands fa-amazon" data-fa-transform="grow-4"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 my-profile">
-                        <div class="my-profile-box">
-                            <h4>Hi there 👋</h4>
-                            <p class="text-muted">高校 大学と情報工学を専攻しています！暇なときにコツコツとGithubに水やりする毎日...🌱七度転んで八度起き上がろうとする日もあれば、七度転んでふて寝しようとする日もあります！今はご縁もあり、研究の合間に学生Webエンジニアとして活動しています。</p>
-                            <h4>Date of birth 🍰</h4>
-                            <p class="text-muted">2000 / 10 / 05</p>
-                            <h4>Favorite drink ☕</h4>
-                            <p class="text-muted">紅茶とか珈琲とかおさけとか！！</p>                            
-                            <div class="more-item">
-                                <h4>Motto 🔖</h4>
-                                <span class="underline">人に奢ったことは忘れろ。人に奢られたことは忘れるな。</span>
-                            </div>
-                            <div class="btn-more">
-                                <button class="learn-more">
-                                    <span class="circle" aria-hidden="true">
-                                        <span class="icon arrow"></span>
-                                    </span>
-                                    <span class="button-text">Learn More</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
-                </div>-->
-            </div>
-        </section>
+        <section class="page-section bg-light" id="profile"></section>
 
         <!-- Footer-->
         <footer class="footer py-4">
@@ -370,165 +96,6 @@
                 </div>
             </div>
         </footer>
-
-        <!-- Picture Modals-->
-        <!-- Picture item 3 modal popup-->
-        <div class="picture-modal modal fade" id="pictureModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="text-uppercase">きゅーとなイラスト</h3>
-                                    <p class="item-intro text-muted">January 2022</p>
-                                    <div class="content">
-                                        <div id="mainvisual1" class="mainpic">
-                                            <img src="assets/img/picture/te3a.png" alt="">
-                                        </div>
-                                        <ul id="thumbnail1" class="subpic">
-                                            <li><img src="assets/img/picture/te3a.png" alt=""></li>
-                                            <li><img src="assets/img/picture/te3b.png" alt=""></li>
-                                            <li><img src="assets/img/picture/te3c.png" alt=""></li>
-                                        </ul>
-                                    </div>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>作者 :</strong>
-                                            コトコ 様
-                                        </li>
-                                        <li>
-                                            <strong>カテゴリ :</strong>
-                                            Icon , Deformed
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Picture item 2 modal popup-->
-        <div class="picture-modal modal fade" id="pictureModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="text-uppercase">かわいい立ち絵</h3>
-                                    <p class="item-intro text-muted">June 2021</p>
-                                    <div class="content">
-                                        <div id="mainvisual2" class="mainpic">
-                                            <img src="assets/img/picture/te2a.png" alt="">
-                                        </div>
-                                        <ul id="thumbnail2" class="subpic">
-                                            <li><img src="assets/img/picture/te2a.png" alt=""></li>
-                                            <li><img src="assets/img/picture/te2b.png" alt=""></li>
-                                        </ul>
-                                    </div>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>作者 :</strong>
-                                            水無瀬 澪 様
-                                        </li>
-                                        <li>
-                                            <strong>カテゴリ :</strong>
-                                            Charactar design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Picture item 1 modal popup-->
-        <div class="picture-modal modal fade" id="pictureModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="text-uppercase">ないすなアイコン</h3>
-                                    <p class="item-intro text-muted">December 2020</p>
-                                    <div class="content">
-                                        <div id="mainvisual3" class="mainpic">
-                                            <img src="assets/img/picture/te1a.png" alt="">
-                                        </div>
-                                        <ul id="thumbnail3" class="subpic">
-                                            <li><img src="assets/img/picture/te1a.png" alt=""></li>
-                                            <li><img src="assets/img/picture/te1b.png" alt=""></li>
-                                        </ul>
-                                    </div>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>作者 :</strong>
-                                            Coconiilu 様
-                                        </li>
-                                        <li>
-                                            <strong>カテゴリ :</strong>
-                                            Icon , Deformed
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="text-uppercase">discord bot</h3>
-                                    <p class="item-intro text-muted">September 2022</p>
-                                    <div class="content">
-                                        <div id="mainvisual" class="mainpic">
-                                            <img src="assets/img/portfolio/dcbot.png" alt="">
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -537,9 +104,7 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/gallery.js"></script>
-
+        
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="js/accordion.js"></script>
     </body>
 </html>
