@@ -11070,6 +11070,29 @@ button:hover .button-text {
 .picture-modal .close-modal:hover {
   opacity: 0.3;
 }
+.picture-modal .modal-body img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.picture-modal .modal-body ul {
+  list-style: none;
+}
+.picture-modal .modal-body .content {
+  max-width: 700px;
+  padding: 0 20px;
+  margin: 20px auto;
+}
+.picture-modal .modal-body .mainpic {
+  padding: 10px;
+}
+.picture-modal .modal-body .subpic {
+  display: flex;
+  padding-left: 0;
+}
+.picture-modal .modal-body .subpic li {
+  width: 25%;
+  padding: 10px;
+}
 
 .gallery {
   margin: 50px auto 0;
@@ -11109,30 +11132,6 @@ button:hover .button-text {
   width: 100%;
 }
 
-.modal-body img {
-  max-width: 100%;
-  vertical-align: bottom;
-}
-.modal-body ul {
-  list-style: none;
-}
-.modal-body .content {
-  max-width: 700px;
-  padding: 0 20px;
-  margin: 20px auto;
-}
-.modal-body .mainpic {
-  padding: 10px;
-}
-.modal-body .subpic {
-  display: flex;
-  padding-left: 0;
-}
-.modal-body .subpic li {
-  width: 20%;
-  padding: 10px;
-}
-
 /*-------------------------------------------
 SP
 -------------------------------------------*/
@@ -11141,15 +11140,16 @@ SP
     margin: 1rem auto;
     max-width: 95vw;
   }
-  .modal-body .content {
+  .picture-modal .modal-body .content {
     padding: 0 10px;
     margin: 10px auto;
   }
-  .modal-body #mainvisual {
-    padding: 5px;
+  .picture-modal .modal-body .mainpic {
+    padding: 10px 5px;
   }
-  .modal-body #thumbnail li {
-    padding: 5px;
+  .picture-modal .modal-body .subpic li {
+    width: 25%;
+    padding: 0 5px;
   }
 }
 .timeline {
@@ -11534,6 +11534,29 @@ section#contact form#contactForm :-ms-input-placeholder {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+.portfolio-modal .modal-body img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.portfolio-modal .modal-body ul {
+  list-style: none;
+}
+.portfolio-modal .modal-body .content {
+  max-width: 700px;
+  padding: 0 20px;
+  margin: 20px auto;
+}
+.portfolio-modal .modal-body .mainpic {
+  padding: 10px;
+}
+.portfolio-modal .modal-body .subpic {
+  display: flex;
+  padding-left: 0;
+}
+.portfolio-modal .modal-body .subpic li {
+  width: 25%;
+  padding: 10px;
+}
 
 .gallery {
   margin: 50px auto 0;
@@ -11573,30 +11596,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
 }
 
-.modal-body img {
-  max-width: 100%;
-  vertical-align: bottom;
-}
-.modal-body ul {
-  list-style: none;
-}
-.modal-body .content {
-  max-width: 700px;
-  padding: 0 20px;
-  margin: 20px auto;
-}
-.modal-body .mainpic {
-  padding: 10px;
-}
-.modal-body .subpic {
-  display: flex;
-  padding-left: 0;
-}
-.modal-body .subpic li {
-  width: 20%;
-  padding: 10px;
-}
-
 /*-------------------------------------------
 SP
 -------------------------------------------*/
@@ -11605,15 +11604,16 @@ SP
     margin: 1rem auto;
     max-width: 95vw;
   }
-  .modal-body .content {
+  .portfolio-modal .modal-body .content {
     padding: 0 10px;
     margin: 10px auto;
   }
-  .modal-body #mainvisual {
-    padding: 5px;
+  .portfolio-modal .modal-body .mainpic {
+    padding: 10px 5px;
   }
-  .modal-body #thumbnail li {
-    padding: 5px;
+  .portfolio-modal .modal-body .subpic li {
+    width: 25%;
+    padding: 0 5px;
   }
 }
 /*共通パーツ*/
