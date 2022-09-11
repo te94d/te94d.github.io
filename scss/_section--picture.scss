@@ -83,6 +83,32 @@
       opacity: 0.3;
     }
   }
+
+  .modal-body{
+    img {
+      max-width: 100%;
+      vertical-align: bottom;
+    }
+    ul {
+      list-style: none;
+    }
+    .content {
+      max-width: 700px;
+      padding: 0 20px;
+      margin: 20px auto;
+    }
+    .mainpic {
+      padding: 10px;
+    }
+    .subpic {
+      display: flex;
+      padding-left: 0;
+    }
+    .subpic li {
+      width: 25%;
+      padding: 10px;
+    }
+  }
 }
 
 .gallery {
@@ -124,32 +150,6 @@
   }
 }
 
-.modal-body{
-  img {
-    max-width: 100%;
-    vertical-align: bottom;
-  }
-  ul {
-    list-style: none;
-  }
-  .content {
-    max-width: 700px;
-    padding: 0 20px;
-    margin: 20px auto;
-  }
-  .mainpic {
-    padding: 10px;
-  }
-  .subpic {
-    display: flex;
-    padding-left: 0;
-  }
-  .subpic li {
-    width: 20%;
-    padding: 10px;
-  }  
-}
-
 
 /*-------------------------------------------
 SP
@@ -160,19 +160,19 @@ SP
       margin: 1rem auto;
       max-width: 95vw;
     }
-  }
 
-  .modal-body{
-    .content {
-      padding: 0 10px;
-      margin: 10px auto;
+    .modal-body{
+      .content {
+        padding: 0 10px;
+        margin: 10px auto;
+      }
+      .mainpic {
+        padding: 10px 5px;
+      }
+      .subpic li {
+        width: 25%;
+        padding: 0 5px;
+      }
     }
-
-    #mainvisual {
-      padding: 5px;
-    }
-    #thumbnail li {
-      padding: 5px;
-    }    
   }
 }
