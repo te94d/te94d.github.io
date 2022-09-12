@@ -112,6 +112,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin: 15px 0;
       .tag {
         display: flex;
         background-color: rgba(75, 75, 75);
@@ -125,9 +126,6 @@
           margin-right: 5px;
         }
       }
-    }
-    .author {
-      margin: 15px 0;
     }
   }
 }
@@ -195,6 +193,7 @@ SP
         padding: 0 5px;
       }
       .tags {
+        margin-top: 5px;
         .tag {
           font-size: 12px;
           img {

@@ -11097,6 +11097,7 @@ button:hover .button-text {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 15px 0;
 }
 .picture-modal .modal-body .tags .tag {
   display: flex;
@@ -11110,9 +11111,6 @@ button:hover .button-text {
 .picture-modal .modal-body .tags .tag img {
   width: 16px;
   margin-right: 5px;
-}
-.picture-modal .modal-body .author {
-  margin: 15px 0;
 }
 
 .gallery {
@@ -11171,6 +11169,9 @@ SP
   .picture-modal .modal-body .subpic li {
     width: 25%;
     padding: 0 5px;
+  }
+  .picture-modal .modal-body .tags {
+    margin-top: 5px;
   }
   .picture-modal .modal-body .tags .tag {
     font-size: 12px;
@@ -11584,6 +11585,25 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 25%;
   padding: 10px;
 }
+.portfolio-modal .modal-body .tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+.portfolio-modal .modal-body .tags .tag {
+  display: flex;
+  background-color: rgb(75, 75, 75);
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+.portfolio-modal .modal-body .tags .tag img {
+  width: 16px;
+  margin-right: 5px;
+}
 
 .gallery {
   margin: 50px auto 0;
@@ -11641,6 +11661,15 @@ SP
   .portfolio-modal .modal-body .subpic li {
     width: 25%;
     padding: 0 5px;
+  }
+  .portfolio-modal .modal-body .tags {
+    margin-top: 5px;
+  }
+  .portfolio-modal .modal-body .tags .tag {
+    font-size: 12px;
+  }
+  .portfolio-modal .modal-body .tags .tag img {
+    width: 12px;
   }
 }
 /*共通パーツ*/
