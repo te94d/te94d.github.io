@@ -108,6 +108,27 @@
       width: 25%;
       padding: 10px;
     }
+    .tags {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .tag {
+        display: flex;
+        background-color: rgba(75, 75, 75);
+        padding: 5px 10px;
+        margin: 0 5px;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 16px;
+        img {
+          width: 16px;
+          margin-right: 5px;
+        }
+      }
+    }
+    .author {
+      margin: 15px 0;
+    }
   }
 }
 
@@ -172,6 +193,14 @@ SP
       .subpic li {
         width: 25%;
         padding: 0 5px;
+      }
+      .tags {
+        .tag {
+          font-size: 12px;
+          img {
+            width: 12px;
+          }
+        }
       }
     }
   }
