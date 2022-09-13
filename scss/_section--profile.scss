@@ -29,6 +29,12 @@
   }
   .more-item {
     display: none;
+    .first-item {
+      margin-top: 1rem;
+    }
+  }
+  .last-item {
+    margin-bottom: 0;
   }
 }
 @media (min-width: 992px) {
