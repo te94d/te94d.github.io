@@ -11379,6 +11379,12 @@ SP
 .my-profile-box .more-item {
   display: none;
 }
+.my-profile-box .more-item .first-item {
+  margin-top: 1rem;
+}
+.my-profile-box .last-item {
+  margin-bottom: 0;
+}
 
 @media (min-width: 992px) {
   .my-profile {
