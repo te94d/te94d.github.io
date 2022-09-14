@@ -11040,7 +11040,7 @@ button:hover .button-text {
 }
 .picture-modal .modal-content {
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 .picture-modal .modal-content h2, .picture-modal .modal-content .h2 {
@@ -11158,6 +11158,9 @@ SP
   .picture-modal .modal-dialog {
     margin: 1rem auto;
     max-width: 95vw;
+  }
+  .picture-modal .modal-content {
+    padding-bottom: 1rem;
   }
   .picture-modal .modal-body .content {
     padding: 0 5px;
@@ -11538,7 +11541,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
@@ -11672,6 +11675,9 @@ SP
   .portfolio-modal .modal-dialog {
     margin: 1rem auto;
     max-width: 95vw;
+  }
+  .portfolio-modal .modal-content {
+    padding-bottom: 1rem;
   }
   .portfolio-modal .modal-body .content {
     padding: 0 10px;
