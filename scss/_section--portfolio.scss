@@ -57,7 +57,7 @@
 
   .modal-content {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     text-align: center;
     h2, .h2 {
       font-size: 3rem;
@@ -200,7 +200,9 @@ SP
       margin: 1rem auto;
       max-width: 95vw;
     }
-
+    .modal-content {
+      padding-bottom: 1rem;
+    }
     .modal-body{
       .content {
         padding: 0 10px;
