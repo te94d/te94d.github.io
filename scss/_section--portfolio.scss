@@ -135,6 +135,15 @@
     }
     .body-container {
       text-align: left;
+      >h4 {
+        margin-top: 1rem;
+      }
+      ul {
+        list-style: url('/assets/svg/leaf.svg');
+        li::marker {
+          width: 16px;
+        }
+      }
       .text-red {
         color: rgb(125, 0, 0)
       }
