@@ -1,5 +1,3 @@
-
-
 $(function () {
   $('.learn-more').prevAll().hide();
   $('.learn-more').click(function () {
