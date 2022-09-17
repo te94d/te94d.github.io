@@ -11645,6 +11645,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 .portfolio-modal .modal-body .body-container > h4 {
   margin-top: 1rem;
 }
+.portfolio-modal .modal-body .body-container > .sub-title {
+  font-weight: bold;
+}
 .portfolio-modal .modal-body .body-container ul {
   list-style: url("/assets/svg/leaf.svg");
 }
