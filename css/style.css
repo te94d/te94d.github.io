@@ -11512,21 +11512,21 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
-#portfolio.page-section {
+#product.page-section {
   padding: 6rem 0 0;
 }
 
-#portfolio .portfolio-item {
+#product .product-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 }
-#portfolio .portfolio-item .portfolio-link {
+#product .product-item .product-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#product .product-item .product-link .product-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11537,54 +11537,54 @@ section#contact form#contactForm :-ms-input-placeholder {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#product .product-item .product-link .product-hover .product-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+#product .product-item .product-link:hover .product-hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-caption {
+#product .product-item .product-caption {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+#product .product-item .product-caption .product-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+#product .product-item .product-caption .product-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.portfolio-modal .modal-dialog {
+.product-modal .modal-dialog {
   margin: 1rem auto;
   max-width: 80vw;
 }
-.portfolio-modal .modal-content {
+.product-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
 }
-.portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+.product-modal .modal-content h2, .product-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
 }
-.portfolio-modal .modal-content p.item-intro {
+.product-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.portfolio-modal .modal-content p {
+.product-modal .modal-content p {
   margin-bottom: 0;
 }
-.portfolio-modal .modal-content ul.list-inline {
+.product-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.portfolio-modal .close-modal {
+.product-modal .close-modal {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -11593,40 +11593,40 @@ section#contact form#contactForm :-ms-input-placeholder {
   cursor: pointer;
   background-color: transparent;
 }
-.portfolio-modal .close-modal:hover {
+.product-modal .close-modal:hover {
   opacity: 0.3;
 }
-.portfolio-modal .modal-body img {
+.product-modal .modal-body img {
   max-width: 100%;
   vertical-align: bottom;
 }
-.portfolio-modal .modal-body ul {
+.product-modal .modal-body ul {
   list-style: none;
 }
-.portfolio-modal .modal-body .content {
+.product-modal .modal-body .content {
   max-width: 700px;
   padding: 0 20px;
   margin: 20px auto;
 }
-.portfolio-modal .modal-body .mainpic {
+.product-modal .modal-body .mainpic {
   padding: 10px 0;
 }
-.portfolio-modal .modal-body .subpic {
+.product-modal .modal-body .subpic {
   display: flex;
   padding-left: 0;
 }
-.portfolio-modal .modal-body .subpic li {
+.product-modal .modal-body .subpic li {
   width: 25%;
   padding: 10px;
 }
-.portfolio-modal .modal-body .tags {
+.product-modal .modal-body .tags {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 15px 0 28px;
   padding: 0;
 }
-.portfolio-modal .modal-body .tags .tag {
+.product-modal .modal-body .tags .tag {
   display: flex;
   background-color: rgb(60, 60, 60);
   padding: 5px 10px;
@@ -11635,26 +11635,26 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
   font-size: 16px;
 }
-.portfolio-modal .modal-body .tags .tag img {
+.product-modal .modal-body .tags .tag img {
   width: 16px;
   margin-right: 5px;
 }
-.portfolio-modal .modal-body .body-container {
+.product-modal .modal-body .body-container {
   text-align: left;
 }
-.portfolio-modal .modal-body .body-container > h4 {
+.product-modal .modal-body .body-container > h4 {
   margin-top: 1rem;
 }
-.portfolio-modal .modal-body .body-container > .sub-title {
+.product-modal .modal-body .body-container > .sub-title {
   font-weight: bold;
 }
-.portfolio-modal .modal-body .body-container ul {
+.product-modal .modal-body .body-container ul {
   list-style: url("/assets/svg/leaf.svg");
 }
-.portfolio-modal .modal-body .body-container ul li::marker {
+.product-modal .modal-body .body-container ul li::marker {
   width: 16px;
 }
-.portfolio-modal .modal-body .body-container .text-red {
+.product-modal .modal-body .body-container .text-red {
   color: rgb(125, 0, 0);
 }
 
@@ -11700,28 +11700,28 @@ section#contact form#contactForm :-ms-input-placeholder {
 SP
 -------------------------------------------*/
 @media screen and (max-width: 600px) {
-  .portfolio-modal .modal-dialog {
+  .product-modal .modal-dialog {
     margin: 1rem auto;
     max-width: 95vw;
   }
-  .portfolio-modal .modal-content {
+  .product-modal .modal-content {
     padding-bottom: 1rem;
   }
-  .portfolio-modal .modal-body .content {
+  .product-modal .modal-body .content {
     padding: 0 10px;
     margin: 10px auto;
   }
-  .portfolio-modal .modal-body .subpic li {
+  .product-modal .modal-body .subpic li {
     width: 25%;
     padding: 0 5px;
   }
-  .portfolio-modal .modal-body .tags {
+  .product-modal .modal-body .tags {
     margin-top: 5px;
   }
-  .portfolio-modal .modal-body .tags .tag {
+  .product-modal .modal-body .tags .tag {
     font-size: 12px;
   }
-  .portfolio-modal .modal-body .tags .tag img {
+  .product-modal .modal-body .tags .tag img {
     width: 12px;
   }
 }
