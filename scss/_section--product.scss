@@ -1,18 +1,18 @@
-//portfolioが4個以上になったら #portfolio.page-section{} を消して more-btn をつくる
-#portfolio.page-section {
+//productが4個以上になったら #product.page-section{} を消して more-btn をつくる
+#product.page-section {
   padding: 6rem 0 0;
 }
 
-#portfolio .portfolio-item {
+#product .product-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 
-  .portfolio-link {
+  .product-link {
     position: relative;
     display: block;
     margin: 0 auto;
-    .portfolio-hover {
+    .product-hover {
       display: flex;
       position: absolute;
       width: 100%;
@@ -22,34 +22,34 @@
       justify-content: center;
       opacity: 0;
       transition: opacity ease-in-out 0.25s;
-      .portfolio-hover-content {
+      .product-hover-content {
         font-size: 1.25rem;
         color: white;
       }
     }
-    &:hover .portfolio-hover {
+    &:hover .product-hover {
       opacity: 1;
     }
   }
 
-  .portfolio-caption {
+  .product-caption {
     padding: 1.5rem;
     text-align: center;
     background-color: #fff;
-    .portfolio-caption-heading {
+    .product-caption-heading {
       font-size: 1.5rem;
       font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       font-weight: 700;
       margin-bottom: 0;
     }
-    .portfolio-caption-subheading {
+    .product-caption-subheading {
       font-style: italic;
       font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
   }
 }
 
-.portfolio-modal {
+.product-modal {
   .modal-dialog {
     margin: 1rem auto;
     max-width: 80vw;
@@ -198,7 +198,7 @@
 SP
 -------------------------------------------*/
 @media screen and (max-width: 600px) {
-  .portfolio-modal {
+  .product-modal {
     .modal-dialog {
       margin: 1rem auto;
       max-width: 95vw;
