@@ -50,3 +50,15 @@ $(function(){
     }
   });
 });
+
+$(function(){
+  $('#thumbnail4 img').on('mouseover', function(){
+    let img_src = $(this).attr("src");
+    if($('#mainvisual4 img').attr("src") != img_src) {
+      $('#mainvisual4 img').fadeOut(500, function() {
+        $("#mainvisual4 img").attr({src:img_src});
+        $("#mainvisual4 img").fadeIn(500);
+      })
+    }
+  });
+});
