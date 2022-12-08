@@ -10688,6 +10688,10 @@ p {
   margin-bottom: 4rem;
 }
 
+.single-top {
+  padding: 10.5rem 0 6rem;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
