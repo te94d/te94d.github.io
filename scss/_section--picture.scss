@@ -206,3 +206,28 @@ SP
     }
   }
 }
+
+/*-------------------------------------------
+section none
+-------------------------------------------*/
+@media (min-width: 992px) {
+  .none2, .none3, .none4 {
+    display: block;
+  }
+  .none1 {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .none1, .none2, .none3, .none4 {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .none3, .none4 {
+    display: block;
+  }
+  .none1, .none2 {
+    display: none;
+  }
+}

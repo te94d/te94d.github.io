@@ -10940,11 +10940,11 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
-button.learn-more {
+button.learn-more, button.more {
   width: 12rem;
   height: auto;
 }
-button.learn-more .circle {
+button.learn-more .circle, button.more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -10954,7 +10954,7 @@ button.learn-more .circle {
   background: var(--bs-body-color);
   border-radius: 1.625rem;
 }
-button.learn-more .circle .icon {
+button.learn-more .circle .icon, button.more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -10962,14 +10962,14 @@ button.learn-more .circle .icon {
   margin: auto;
   background: #ffffff;
 }
-button.learn-more .circle .icon.arrow {
+button.learn-more .circle .icon.arrow, button.more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
   height: 0.125rem;
   background: none;
 }
-button.learn-more .circle .icon.arrow::before {
+button.learn-more .circle .icon.arrow::before, button.more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.25rem;
@@ -10980,7 +10980,7 @@ button.learn-more .circle .icon.arrow::before {
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
 }
-button.learn-more .button-text {
+button.learn-more .button-text, button.more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -10997,14 +10997,14 @@ button.learn-more .button-text {
   text-transform: uppercase;
 }
 @media (max-width: 992px) {
-  button.learn-more .circle {
+  button.learn-more .circle, button.more .circle {
     width: 100%;
   }
-  button.learn-more .circle .icon.arrow {
+  button.learn-more .circle .icon.arrow, button.more .circle .icon.arrow {
     background: #ffffff;
     transform: translate(1rem, 0);
   }
-  button.learn-more .button-text {
+  button.learn-more .button-text, button.more .button-text {
     color: #ffffff;
   }
 }
@@ -11210,6 +11210,30 @@ SP
   }
   .picture-modal .modal-body .tags .tag img {
     width: 12px;
+  }
+}
+/*-------------------------------------------
+section none
+-------------------------------------------*/
+@media (min-width: 992px) {
+  .none2, .none3, .none4 {
+    display: block;
+  }
+  .none1 {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .none1, .none2, .none3, .none4 {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .none3, .none4 {
+    display: block;
+  }
+  .none1, .none2 {
+    display: none;
   }
 }
 .timeline {
