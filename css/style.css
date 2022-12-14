@@ -10980,7 +10980,7 @@ button.learn-more .circle .icon.arrow::before, button.more .circle .icon.arrow::
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
 }
-button.learn-more .button-text, button.more .button-text {
+button.learn-more .button-text, button.learn-more .button-text1, button.more .button-text, button.more .button-text1 {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -11004,7 +11004,7 @@ button.learn-more .button-text, button.more .button-text {
     background: #ffffff;
     transform: translate(1rem, 0);
   }
-  button.learn-more .button-text, button.more .button-text {
+  button.learn-more .button-text, button.learn-more .button-text1, button.more .button-text, button.more .button-text1 {
     color: #ffffff;
   }
 }
@@ -11015,7 +11015,7 @@ button:hover .circle .icon.arrow {
   background: #ffffff;
   transform: translate(1rem, 0);
 }
-button:hover .button-text {
+button:hover .button-text, button:hover .button-text1 {
   color: #ffffff;
 }
 
