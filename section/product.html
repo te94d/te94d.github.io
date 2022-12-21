@@ -5,6 +5,21 @@
     </div>
     <div class="row">
         <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Product item 2-->
+            <div class="product-item">
+                <a class="product-link" data-bs-toggle="modal" href="#productModal2">
+                    <div class="product-hover">
+                        <div class="product-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/product/browserextension.png" alt="..." />
+                </a>
+                <div class="product-caption">
+                    <div class="product-caption-heading">Browser Extension</div>
+                    <div class="product-caption-subheading text-muted">November 2022</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
             <!-- Product item 1-->
             <div class="product-item">
                 <a class="product-link" data-bs-toggle="modal" href="#productModal1">
@@ -31,6 +46,62 @@
 </div>
 
 <!-- Product Modals-->
+<!-- Product item 2 modal popup-->
+<div class="product-modal modal fade" id="productModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h3 class="text-uppercase">Blocking-Notifications</h3>
+                            <p class="item-intro text-muted">November 2022</p>
+                            <div class="content">
+                                <div id="mainvisual" class="mainpic">
+                                    <img src="assets/img/product/browserextension.png" alt="">
+                                </div>
+                                <ul class="tags">
+                                    <li class="tag"><img src="assets/img/tags.svg" alt="" />Browser Extension</li>
+                                </ul>
+                                <div class="body-container">
+                                    <h4>Blocking-Notifications</h4>
+                                    <p class="text-muted">Notification APIを用いて実装されている悪質なWebプッシュ通知を制御してみるブラウザ拡張機能</p>
+                                    <p class="sub-title">Webプッシュ通知って何者？</p>
+                                    <p class="text-muted">
+                                        簡単に言うと、Webサイトにアクセスした際に出てくるコレ
+                                        <br><img src="https://user-images.githubusercontent.com/99247797/208937407-d78fedaf-59b8-4065-bedf-1faf623e3223.png" alt="">
+                                        <br>を許可した時に出てくるコレ
+                                        <br><img src="https://user-images.githubusercontent.com/99247797/208938086-9537db5d-9b59-4110-a26c-d28a78cd0afe.png" alt="">
+                                        <br>のこと（googleカレンダーとかでも使われてるよね）
+                                    </p>
+                                    <p class="sub-title">結局何してるの？</p>
+                                    <p class="text-muted">
+                                        全体の流れはこんな感じ
+                                        <br><img src="https://user-images.githubusercontent.com/99247797/208462560-970d6d4f-d549-4278-9931-0a76c14e9c42.png" alt="">
+                                        <br>Webサイトから悪質な通知が表示されそうになっている場合にユーザに表示する前にブロックリストと照合して表示の可否をするっていうカタチ
+                                        <br><img src="https://user-images.githubusercontent.com/99247797/208943995-71f7b3b3-acd7-4e2a-b8ef-15d38e807e21.png" alt="">
+                                        <br>さらに、ブロックリストに登録されてない悪質な通知に関しては、上の画像みたく遷移した際にユーザが直接登録できるようにすることで他のユーザもブロックされて悪質な通知に引っかからないね！ラッキーって感じに実装しました
+                                    </p>
+                                    <h4>Github</h4>
+                                    <p class="text-muted">リポジトリは
+                                        <a class="link-dark" href="https://github.com/te94d/Blocking-Notifications" target="_blank">こちら</a>
+                                    から。</p>
+                                    <!--<p class="text-red">※詳しくは各SNSプラットフォームの利用規約をご確認の上利用してください！</p>-->
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Product item 1 modal popup-->
 <div class="product-modal modal fade" id="productModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
